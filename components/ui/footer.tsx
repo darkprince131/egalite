@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import egalite from '@/public/images/egalite_2.png'
+import egalite from '@/public/images/egalite_.png'
 
 export default function Footer() {
   return (
