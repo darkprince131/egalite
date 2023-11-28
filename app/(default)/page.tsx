@@ -1,3 +1,5 @@
+/* @react-client */
+
 export const metadata = {
   title: 'Egalite',
   description: 'Page description',

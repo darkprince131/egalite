@@ -28,7 +28,14 @@ export default function Hero() {
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Whether you're aiming to modernize, gain a competitive edge, or tackle challenging operational hurdles, our expertise lies in crafting top-tier IT solutions that drive tangible business value, empowering your organization to thrive.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Talk to an expert</a>
+                <a
+                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                  href={`mailto:test1234@gmail.com?subject=Expert Consultation`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Talk to an expert
+                </a>
               </div>
             </div>
           </div>
